@@ -100,6 +100,7 @@
                     color: #fff;
                     font-size: 13px;
                     font-weight: 600;
+                    white-space: pre-line;
                 }
             }
         }
@@ -145,7 +146,7 @@
             &__info {
                 margin-left: 10px;
 
-                &>span {
+                &>p {
                     color: #fff;
                     font-size: 13px;
                     font-weight: 600;

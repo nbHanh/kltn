@@ -43,9 +43,7 @@ function Header() {
                         <div className={styles.badge}>1</div>
                     </i>
                     <div className={styles.wrapper_header__actions__bag__info}>
-                        <span>Giỏ hàng:
-                            (1) sản phẩm
-                        </span>
+                        <p>Giỏ hàng</p>
                     </div>
                     <div className={styles.wrapper_header__actions__bag__products}>
                         <p>Danh sách đơn hàng</p>
