@@ -22,9 +22,9 @@ function Header() {
                 </div>
                 <div className={styles.wrapper_header__search__search_input}>
                     <input type="text" placeholder='Tìm kiếm sản phẩm' />
-                    <div className={styles.wrapper_header__search__search_input__btn}>
-                        <i className="fa-solid fa-magnifying-glass"></i>
-                    </div>
+                </div>
+                <div className={styles.wrapper_header__search__btn}>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
 
