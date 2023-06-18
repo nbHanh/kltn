@@ -19,13 +19,17 @@
         background-color: #fff;
         border-radius: 7px;
         cursor: pointer;
-        padding-right: 5px;
+        padding-right: 4px;
 
         display: flex;
         align-items: center;
 
         &__options {
-            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 15%;
             cursor: pointer;
             border-right: 1px solid #ebebeb;
             padding: 12px 10px;
@@ -33,7 +37,7 @@
             &>span {
                 font-size: 13px;
                 color: #898989;
-                margin-right: 10px;
+                margin-right: 17px;
             }
 
             &>i {
@@ -43,9 +47,9 @@
 
         &__search_input {
             height: 100%;
-            width: 90%;
+            width: 70%;
             position: relative;
-            padding-left: 10px;
+            padding: 0 10px;
 
             &>input {
                 padding: 0;
@@ -56,22 +60,22 @@
                 outline: none;
                 border: none;
             }
+        }
 
-            &__btn {
-                position: absolute;
-                right: 0;
-                top: 50%;
-                transform: translateY(-50%);
+        &__btn {
+            width: 12%;
+            padding: 10px 0;
+            border-radius: 5px;
+            background: #f5c53a;
+            color: #fff;
+            font-size: 14px;
 
-                padding: 8px 23px;
-                border-radius: 5px;
-                background: #f5c53a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &>i {
                 color: #fff;
-                font-size: 14px;
-
-                &>i {
-                    color: #fff;
-                }
             }
         }
     }
